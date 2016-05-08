@@ -2,7 +2,7 @@
 layout: about
 ---
 
-Hello, my name is Micah Cowell. I am a self proclaimed web developer who likes the internet, hip hop, and fancy yo-yos.
+Hello, my name is Atul Anand. I am a self proclaimed data scientist who likes anything and everthing related to machine learning and computer science among many things.
 
 # What do you do?
 I make website and stuff. All the code I write is on my [Github](https://github.com/getmicah).
