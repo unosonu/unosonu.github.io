@@ -4,20 +4,19 @@ layout: default
 
 {% include header.html %}
 
-<div class="portfolio">
-    <h1>Web Design:</h1>
-    <ul>
-        {% for websites in site.data.websites %}
-        <li>
-            <a href="{{ websites.url }}">{{ websites.url }}</a>
-        </li>
-        {% endfor %}
-    </ul>
+<div class="portfolio" markdown="1">
+    <h1>About:</h1>
+	
+		
+	{% capture my-include %}{% include frontcontent.md %}{% endcapture %}
+        {{ my-include | markdownify }}
+        
+    
 </div>
 
 
 <div class="blog">
-    <h1>Blog Posts:</h1>
+    <h1>Blog Posts of inquesitive:</h1>
     <ul>
         {% for post in site.posts %}
         <li>

@@ -1,6 +1,6 @@
 # My variables
-name: Micah Cowell
-description: Futuristic web design
+name: Atul Anand
+description: Machine learning gems
 google_verification: null
 
 
@@ -20,4 +20,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  #parse_block_html: true
 highlighter: rouge
