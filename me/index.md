@@ -2,13 +2,9 @@
 layout: about
 ---
 
-Hello, my name is Atul Anand. I am a self proclaimed data scientist who likes anything and everthing related to machine learning and computer science among many things.
+Hello, my name is Atul Anand. I am a self proclaimed data scientist who likes anything and everthing related to machine learning and computer science among many things. My study background is in computer science. I like to think about big problems. At the time of writing I am motivated by a problem whose solution may have impact for good for many people. In my self constructional period I read, paint or learn a musical instrument.
 
-# What do you do?
-I make website and stuff. All the code I write is on my [Github](https://github.com/getmicah).
+If you want to consult, teach or work with me, feel free to contact me. I will be glad to respond.
 
-# Who are your favorite artsits?
-Currently I'm listening to a lot of Anderson Paak and Common.
-
-# What programming languages do you use?
-When making websites I like using Javascript and Sass but I also like Python and bash for making linux scripts.
+E-mail: atul.anand.sh@gmail.com
+linkedin: https://in.linkedin.com/in/unosonu

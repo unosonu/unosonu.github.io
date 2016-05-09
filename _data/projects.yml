@@ -1,7 +1,7 @@
-- name: Fatso
+- name: algorithms-list
   category: theme
-  url: https://github.com/getmicah/fatso
+  url: https://github.com/unosnu/algorithms-list
 
-- name: Beam
+- name: place-list
   category: theme
-  url: https://github.com/getmicah/beam
+  url: https://github.com/getmicah/place-list
