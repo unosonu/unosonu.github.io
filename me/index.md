@@ -7,4 +7,5 @@ Hello, my name is Atul Anand. I am a self proclaimed data scientist who likes an
 If you want to consult, teach or work with me, feel free to contact me. I will be glad to respond.
 
 E-mail: atul.anand.sh@gmail.com
+
 linkedin: https://in.linkedin.com/in/unosonu
