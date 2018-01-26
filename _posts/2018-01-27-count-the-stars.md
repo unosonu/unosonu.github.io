@@ -63,7 +63,7 @@ A natural approach to detect blobs is to associate a bright (dark) blob with eac
 
 Another approach Determinant of Hessian (DOH) wasn't tried because reportedly small blobs(<3px) are not detected accurately.
 
-The full script can be found at  ([here](https://github.com/unosonu/miscelleneous-scripts/count-stars.py)) 
+The full script can be found at  ([here](https://github.com/unosonu/miscelleneous-scripts/blob/master/count-stars.py)) 
 
 __References__
 
