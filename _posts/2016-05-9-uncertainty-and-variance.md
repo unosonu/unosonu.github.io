@@ -2,7 +2,7 @@
 layout: post
 title: Uncertainty and variance
 ---
-This posts explains my understanding of these concepts and why we are interested in these.
+This post explains my understanding of these concepts and why we are interested in these.
 
 ![double slit to the world]({{ site.baseurl }}/assets/img/double-window.jpg)
 
