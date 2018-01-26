@@ -20,21 +20,21 @@ The result picture is contains the identified objects with a green circle around
 
 But this is mostly little bigger objects and not like very tiny dots. I wanted to count the number of stars in a picture something like the below photograph. This picture contains my favourite constellation orion.
 
-<img style="float: left;" src="/assets/img/test3.jpg" width="600"></br>
+<img style="float: left;" src="/assets/img/test3.jpg" width="600">
 photo credits: unknown
 
 The resultant picture contains 495 stars, but this doesn't count faint stars. We will capture them in the next photograph.
 
-<img style="float: left;" src="/assets/img/result-495.jpg" width="600"></br>
+<img style="float: left;" src="/assets/img/result-495.jpg" width="600">
 
 The next example was to find the number of stars in those pictures which also have bewildering star dust or glow or clouds in the background. Also I wanted to count the faintest of the stars in the photograph. Here's an example.
 
-<img style="float: left;" src="/assets/img/test7.jpg" width="600"></br>
+<img style="float: left;" src="/assets/img/test7.jpg" width="600">
 photo credits: unknown
 
 For the final example there turned out to be 4383 stars.
 
-<img style="float: left;" src="/assets/img/result7(3)-4383.jpg" width="600"></br>
+<img style="float: left;" src="/assets/img/result7(3)-4383.jpg" width="600">
 
 __Approach__
 
