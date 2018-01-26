@@ -10,31 +10,31 @@ For the experiment sample images are taken from the internet with preference to 
 
 Let's start with the results. Following is a picture form hubble deep field and the most of the objects in the picture are galaxies.
 
-<img style="float: left;" src="/assets/img/Galaxies-Hubble-Ultra-Deep-Field-Partial.JPG" width="200">
+<img style="float: left;" src="/assets/img/Galaxies-Hubble-Ultra-Deep-Field-Partial.JPG" width="600">
 
 photo credits: unknown
 
 The result picture is contains the identified objects with a green circle around them. The total number of objects turn out to be 2632.
 
-<img style="float: left;" src="/assets/img/result-2632.jpg" width="200">
+<img style="float: left;" src="/assets/img/result-2632.jpg" width="600">
 
 But this is mostly little bigger objects and not like very tiny dots. I wanted to count the number of stars in a picture something like the below photograph. This picture contains my favourite constellation orion.
 
-<img style="float: left;" src="/assets/img/test3.jpg" width="200">
+<img style="float: left;" src="/assets/img/test3.jpg" width="600"></br>
 photo credits: unknown
 
 The resultant picture contains 495 stars, but this doesn't count faint stars. We will capture them in the next photograph.
 
-<img style="float: left;" src="/assets/img/result-495.jpg" width="200">
+<img style="float: left;" src="/assets/img/result-495.jpg" width="600"></br>
 
 The next example was to find the number of stars in those pictures which also have bewildering star dust or glow or clouds in the background. Also I wanted to count the faintest of the stars in the photograph. Here's an example.
 
-<img style="float: left;" src="/assets/img/test7.jpg" width="200">
+<img style="float: left;" src="/assets/img/test7.jpg" width="600"></br>
 photo credits: unknown
 
 For the final example there turned out to be 4383 stars.
 
-<img style="float: left;" src="/assets/img/result7(3)-4383.jpg" width="200">
+<img style="float: left;" src="/assets/img/result7(3)-4383.jpg" width="600"></br>
 
 __Approach__
 
