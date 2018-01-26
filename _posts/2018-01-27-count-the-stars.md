@@ -1,7 +1,7 @@
  
 ---
 layout: post
-title: Count the stars
+title: Counting stars
 ---
 People have since the beginning of time been curious towards stars. In current age we can identify the constituent elements of sky objects with the help of sectroscopy. This article presents solution to much simpler problem which is to count the number of stars in a given night sky photograph.
 
@@ -15,7 +15,6 @@ Let's start with the results. Following is a picture form hubble deep field and 
 photo credits: unknown
 
 The result picture is contains the identified objects with a green circle around them. The total number of objects turn out to be 2632.
-
 
 ![hubble-deep-field]({{ site.baseurl }}/assets/img/result-2632.jpg)
 
@@ -37,7 +36,7 @@ photo credits: unknown
 
 For the final example there turned out to be 4383 stars.
 
-![star-dust]({{ site.baseurl }}/assets/img/test7.jpg)
+![star-dust]({{ site.baseurl }}/assets/img/result7(3)-4383.jpg)
 
 __Approach__
 
