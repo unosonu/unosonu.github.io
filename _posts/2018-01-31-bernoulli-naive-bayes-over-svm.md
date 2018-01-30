@@ -43,7 +43,9 @@ Now just a short example of how to implement grid search in sklearn pipeline.
 
 
 from sklearn.model_selection import GridSearchCV
-parameters_svm = {'clf-svm__loss': ('hinge', 'log', 'modified_huber', 'squared_hinge', 'perceptron', 'squared_loss', 'huber', 				                  'epsilon_insensitive','squared_epsilon_insensitive'),
+
+parameters_svm = {'clf-svm__loss': ('hinge', 'log', 'modified_huber', 'squared_hinge', 'perceptron', 'squared_loss',                        
+'huber','epsilon_insensitive','squared_epsilon_insensitive'),
                   'clf-svm__alpha': (1e-2, 1e-3), 
                   'clf-svm__penalty':('l2', 'l1', 'elasticnet'),
                   'clf-svm__n_iter':[50] }
