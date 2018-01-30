@@ -57,6 +57,7 @@ gs_clf_svm.best_params_
 
 
 __References__
+
 http://scikit-learn.org/stable/modules/svm.html#svm-classification
 http://scikit-learn.org/stable/modules/naive_bayes.html#bernoulli-naive-bayes
 
