@@ -54,6 +54,7 @@ gs_clf_svm = GridSearchCV(text_clf_svm, parameters_svm, n_jobs=-1)
 gs_clf_svm = gs_clf_svm.fit(xtrain, ytrain)
 
 print gs_clf_svm.best_score_
+
 gs_clf_svm.best_params_
 
 
