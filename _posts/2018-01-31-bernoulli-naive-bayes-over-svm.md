@@ -11,7 +11,7 @@ First about support vector machines. They are effective in high dimensional spac
 
 One of the problems with them is if the number of features is much greater than the number of samples, over-fitting in choosing Kernel functions should be avoided and regularization term becomes crucial.
 
-Also SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation. Are they reliable? I don't know.
+Also SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation. Also some people try to get probablilites by calculating the distance of the data point from the decision boundary. More the distance the more probability. But these estimates are not reliable.
 
 When it comes to multi-class classification, SVC and NuSVC implement the “one-against-one” approach (Knerr et al., 1990). On the other hand, LinearSVC implements “one-vs-the-rest” multi-class strategy. Note that the LinearSVC also implements an alternative multi-class strategy, the so-called multi-class SVM formulated by Crammer and Singer. This method is consistent, which is not true for one-vs-rest classification. 
 
@@ -23,9 +23,9 @@ The different naive Bayes classifiers differ mainly by the assumptions they make
 They require a small amount of training data to estimate the necessary parameters.
 Naive Bayes learners and classifiers can be extremely fast compared to more sophisticated methods. The decoupling of the class conditional feature distributions means that each distribution can be independently estimated as a one dimensional distribution. This in turn helps to alleviate problems stemming from the curse of dimensionality.
 
-Till here we see that both svm and naive bayes are quite comparable.
+Naive bayes is known to be a bad estimator, so the probability outputs are not to be taken too seriously.
 
-Naive bayes is known to be a bad estimator, so the probability outputs are not to be taken too seriously. For this algorithm we know this for sure whereas it's possible for svm as well.
+Till here we see that both svm and naive bayes are quite comparable.
 
 GaussianNB implements the Gaussian Naive Bayes algorithm for classification. The likelihood of the features is assumed to be Gaussian.
 
@@ -33,14 +33,13 @@ MultinomialNB implements the naive Bayes algorithm for multinomially distributed
 
 The smoothing priors alpha accounts for features not present in the learning samples and prevents zero probabilities in further computations. Setting alpha = 1 is called Laplace smoothing, while alpha < 1 is called Lidstone smoothing.
 
-BernoulliNB implements the naive Bayes training and classification algorithms for data that is distributed according to multivariate Bernoulli distributions; i.e., there may be multiple features but each one is assumed to be a binary-valued (Bernoulli, boolean) variable. Therefore, this class requires samples to be represented as binary-valued feature vectors; if handed any other kind of data, a BernoulliNB instance may binarize its input (depending on the binarize parameter).
+BernoulliNB implements the naive Bayes training and classification algorithms for data that is distributed according to multivariate Bernoulli distributions; i.e., there may be multiple features but each one is assumed to be a binary-valued (Bernoulli, boolean) variable. Therefore, this class requires samples to be represented as binary-valued feature vectors; if handed any other kind of data, a BernoulliNB instance may binarize its input.
 
 The decision rule for Bernoulli naive Bayes differs from multinomial NB’s rule in that it explicitly penalizes the non-occurrence of a feature i that is an indicator for class y, where the multinomial variant would simply ignore a non-occurring feature.
 
-In the case of text classification, word occurrence vectors (rather than word count vectors) may be used to train and use this classifier. BernoulliNB might perform better on some datasets, especially those with shorter documents which is why this post.
+In the case of text classification, word occurrence vectors (rather than word count vectors) may be used to train and use this classifier. BernoulliNB might perform better on some datasets, especially those with shorter documents.
 
 Now just a short example of how to implement grid search in sklearn pipeline.
-
 
 from sklearn.model_selection import GridSearchCV
 
