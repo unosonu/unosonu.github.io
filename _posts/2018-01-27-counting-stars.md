@@ -3,6 +3,7 @@
 layout: post
 title: Counting stars
 ---
+
 People have since the beginning of time been curious towards stars. In current age we can identify the constituent elements of sky objects with the help of sectroscopy. This article presents solution to much simpler problem which is to count the number of stars in a given night sky photograph.
 
 While manually counting stars in the night sky, we are never sure if what we are seeing is actually a star. Also with the time of gazing more stars seem to appear and dissapear. While in a photograph taken with the help of configurable exposure cameras we can not only find more stars but also see many faint stars along with the bright ones with more surety. There are different types of photographs which cause different problems for counting stars.
